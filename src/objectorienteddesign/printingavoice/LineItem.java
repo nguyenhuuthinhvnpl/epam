@@ -5,7 +5,7 @@ public class LineItem {
     private Product theProduct;
 
 
-    public LineItem( Product aProduct, int quatity ) {
+    public LineItem( Product aProduct, int quantity ) {
         this.quantity = quantity;
         this.theProduct = aProduct;
     }

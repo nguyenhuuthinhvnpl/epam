@@ -1,7 +1,5 @@
 package objectorienteddesign.printingavoice;
 
-import java.util.ArrayList;
-
 public class Address {
     private String name;
     private String street;

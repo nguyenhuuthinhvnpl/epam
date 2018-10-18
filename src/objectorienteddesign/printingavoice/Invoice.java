@@ -27,7 +27,11 @@ public class Invoice {
     }
 
     public double getAmountDue() {
-        return 0.0;
+        double amountDue = 0;
+        for (LineItem item : items) {
+            amountDue += item.getTotalPrice();
+        }
+        return amountDue;
     }
 
     @Override
