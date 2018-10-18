@@ -8,6 +8,6 @@ public class InvoicePrinter {
         samsInvoice.add(new Product("Toaster", 29.95), 3);
         samsInvoice.add(new Product("Hair dryer", 24.95), 1);
         samsInvoice.add(new Product("Car vacuum", 19.99), 2);
-        //        System.out.println(samsInvoice.format());
+        System.out.println(samsInvoice.format());
     }
 }

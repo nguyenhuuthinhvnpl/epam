@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Invoice {
     private Address billingAddress;
-    private ArrayList<LineItem> items;
+    private ArrayList<LineItem> items = new ArrayList<>();
 
 
     public Invoice( Address billingAddress ) {
@@ -16,7 +16,7 @@ public class Invoice {
         items.add(anItem);
     }
 
-    /*public String format() {
+    public String format() {
         String r = " I N V O I C E\n\n" + billingAddress.format() + String
         .format("\n\n%-30s%8s%5s%8s\n", "Description", "Price", "Qty", "Total");
         for (LineItem item : items) {
@@ -24,7 +24,7 @@ public class Invoice {
         }
         r = r + String.format("\nAMOUNT DUE: $%8.2f", getAmountDue());
         return r;
-    }*/
+    }
 
     public double getAmountDue() {
         return 0.0;

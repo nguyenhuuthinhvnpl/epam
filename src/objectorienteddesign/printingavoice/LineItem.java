@@ -7,7 +7,7 @@ public class LineItem {
 
     public LineItem( Product aProduct, int quatity ) {
         this.quantity = quantity;
-        this.theProduct = theProduct;
+        this.theProduct = aProduct;
     }
 
     public double getTotalPrice() {

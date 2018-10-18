@@ -9,7 +9,6 @@ public class Product {
         this.price = price;
     }
 
-
     public String getDescription() {
         return description;
     }

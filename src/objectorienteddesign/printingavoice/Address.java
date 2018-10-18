@@ -18,5 +18,8 @@ public class Address {
         this.zip = zip;
     }
 
-    //public String format(){}
+    public String format() {
+        return name + "\n" + street + "\n"
+                + city + ", " + state + " " + zip;
+    }
 }
