@@ -9,5 +9,8 @@ public class App {
         ClassFile classFile = new ClassFile();
         classFile.isFileValid(new java.io.File("obraz.jpg"));
 
+        // given a not *png file extension
+        classFile.isFileValid(new java.io.File("obraz.png"));
+
     }
 }
