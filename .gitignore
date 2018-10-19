@@ -23,14 +23,3 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-
-/obraz.png
-/src/epam/com/App.java
-.idea/workspace.xml
-src/epam/epam/
-src/epam/roundsecond/
-src/freecodecamp/
-src/hemmersbach/
-src/ingbank/
-src/solvingproblem/
-src/string/
