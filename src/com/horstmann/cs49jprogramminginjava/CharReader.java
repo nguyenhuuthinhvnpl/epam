@@ -9,6 +9,7 @@ public class CharReader {
         int ascii = 0;
         int special = 0;
         int iso8859_1 = 0;
+        int greek = 0;
         int notInBmp = 0;
         Reader in = new InputStreamReader(System.in);
         boolean more = true;
@@ -18,13 +19,14 @@ public class CharReader {
                 more = false;
             } else {
                 char ch = (char) next; // The character to analyze
-                if (. . .)
+                if (next > 0x7F)// ch is a ACII character
                 {
                     ascii++;
+                } else if (ch < 256) { // ch is a iso8859_1 character
+                    iso8859_1++;
+                } else if (0x0370 <= ch && ch >= 0x03FF) {
+                    greek++;
                 }
-
-            . . .
-
             }
         }
         System.out.println("ASCII: " + ascii);
