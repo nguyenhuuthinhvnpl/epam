@@ -9,7 +9,7 @@ public class CharReader {
         int ascii = 0;
         int special = 0;
         int iso8859_1 = 0;
-        int greek = 0;
+        K
         int notInBmp = 0;
         Reader in = new InputStreamReader(System.in);
         boolean more = true;
