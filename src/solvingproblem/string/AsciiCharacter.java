@@ -1,4 +1,4 @@
-package string;
+package solvingproblem.string;
 
 public class AsciiCharacter {
     public static void main( String[] args ) {
@@ -12,4 +12,14 @@ public class AsciiCharacter {
             System.out.println(characters[i] + ":" + num);
         }
     }
+
+//    public static class ImmutableClass {
+//        public static void main( String[] args ) {
+//            String name = "John Q.Public";
+//            String upperCase =  name.toUpperCase(); // name is not changed
+//
+//            System.out.println(name);
+//            System.out.println(upperCase);
+//        }
+//    }
 }

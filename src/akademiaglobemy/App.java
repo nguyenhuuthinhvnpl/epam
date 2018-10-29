@@ -1,8 +1,7 @@
-package string;
+package akademiaglobemy;
 
-public class duplicateCharacter {
+public class App {
     public static void main( String[] args ) {
-
 
     }
 }

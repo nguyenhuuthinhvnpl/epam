@@ -1,4 +1,4 @@
-package sjsu.datastructure.homework1;
+package sjsu.datastructure.homework.homwork1;
 
 public class Maxima {
     public static void main( String args[] ) {
@@ -25,6 +25,7 @@ public class Maxima {
 
         ann.increaseBy(20000);
         bob.increaseBy(60000);
+       // System.out.println(bob.getSalary());
         maxEmployee = (Employee) Utility.max(dept);
         System.out.println("The maximum employee is " +
                 maxEmployee.getName());

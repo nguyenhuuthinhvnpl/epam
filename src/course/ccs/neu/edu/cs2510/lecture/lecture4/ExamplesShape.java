@@ -1,8 +1,10 @@
 package course.ccs.neu.edu.cs2510.lecture.lecture4;
 
 public class ExamplesShape {
+/*
     IShape c1 = new Circle(50, 50, 10, "red");
     IShape s1 = new Square(50, 50, 30, "red");
+*/
 
     ExamplesShape() {
     }

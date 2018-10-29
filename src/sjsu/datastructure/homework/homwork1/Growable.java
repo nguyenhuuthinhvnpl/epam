@@ -1,4 +1,4 @@
-package sjsu.datastructure.homework1;
+package sjsu.datastructure.homework.homwork1;
 
 public interface Growable {
     void increaseBy( double amount );

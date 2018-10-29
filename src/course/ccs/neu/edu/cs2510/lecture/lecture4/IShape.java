@@ -2,6 +2,7 @@ package course.ccs.neu.edu.cs2510.lecture.lecture4;
 
 // represent a geometric shape
 public interface IShape {
+
     // compute  the area of this shape
     double area();
 
@@ -13,4 +14,7 @@ public interface IShape {
 
     // is the area of this shape bigger than  the area of the given shape
     boolean isBiggerThan( IShape that );
+
+    // return true if the given point within the shape
+    boolean contains(CartPt point);
 }

@@ -1,6 +1,4 @@
-package string;
-
-import java.util.Scanner;
+package solvingproblem.string;
 
 public class CountWordLetter {
     public static void main( String[] args ) {

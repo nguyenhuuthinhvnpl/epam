@@ -1,4 +1,4 @@
-package sjsu.datastructure.homework1;
+package sjsu.datastructure.homework.homwork1;
 
 public class Animal implements Comparable {
     private String name;
@@ -8,8 +8,7 @@ public class Animal implements Comparable {
     }
 
     public int compareTo( Object otherObject ) {
-        int value = name.compareTo(((Animal) otherObject).name);
-        return value;
+        return name.compareTo(((Animal) otherObject).name);
     }
 
     public String getName() {
